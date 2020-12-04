@@ -1,0 +1,9 @@
+Develop a program in sqrt.cpp to compute the square root of a double using Newton's method.
+
+The main function should take in either one or two command line arguments, both of which are doubles.
+
+The first argument is the number of which to take the square root.  It is, of course, a required argument.
+The second argument is optional.  It is the value of epsilon, the amount by which the abs(last_guess - next_guess) is allowed to differ.  If no argument is supplied, espilon should be set to 1e-7, which is 10-7.
+You must implement the function that has the following header:
+
+double sqrt(double num, double epsilon)
